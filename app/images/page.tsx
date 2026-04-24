@@ -1,10 +1,10 @@
 import Image from "next/image";
 
 const images = [
-  { src: "/x.svg", alt: "X (Twitter)" },
-  { src: "/linkedin.svg", alt: "LinkedIn" },
-  { src: "/facebook.svg", alt: "Facebook" },
-  { src: "/instagram.svg", alt: "Instagram" },
+  { src: "/x.png", alt: "X (Twitter)" },
+  { src: "/linkedin.png", alt: "LinkedIn" },
+  { src: "/facebook.png", alt: "Facebook" },
+  { src: "/instagram.png", alt: "Instagram" },
 ];
 
 export const metadata = {
