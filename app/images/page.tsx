@@ -2,6 +2,7 @@ import Image from "next/image";
 import facebookImage from "./assets/facebook.png";
 import instagramImage from "./assets/instagram.png";
 import linkedinImage from "./assets/linkedin.png";
+import reachNewCustomerImage from "./assets/reach-new-customer-image.png";
 import xImage from "./assets/x.png";
 
 const images = [
@@ -9,6 +10,7 @@ const images = [
   { src: linkedinImage, alt: "LinkedIn" },
   { src: facebookImage, alt: "Facebook" },
   { src: instagramImage, alt: "Instagram" },
+  { src: reachNewCustomerImage, alt: "Reach new customers" },
 ];
 
 export const metadata = {
