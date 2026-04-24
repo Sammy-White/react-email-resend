@@ -1,14 +1,14 @@
 import Image from "next/image";
+import facebookImage from "./assets/facebook.png";
+import instagramImage from "./assets/instagram.png";
+import linkedinImage from "./assets/linkedin.png";
+import xImage from "./assets/x.png";
 
 const images = [
-  { src: "/x.png", alt: "X (Twitter)" },
-  { src: "/linkedin.png", alt: "LinkedIn" },
-  { src: "/facebook.png", alt: "Facebook" },
-  { src: "/instagram.png", alt: "Instagram" },
-  {
-    src: "https://github.com/user-attachments/assets/ec77163d-06fe-4b3c-94fc-d656ebf7900b",
-    alt: "Social Icon",
-  },
+  { src: xImage, alt: "X (Twitter)" },
+  { src: linkedinImage, alt: "LinkedIn" },
+  { src: facebookImage, alt: "Facebook" },
+  { src: instagramImage, alt: "Instagram" },
 ];
 
 export const metadata = {
@@ -22,7 +22,7 @@ export default function ImagesPage() {
       <h1 className="text-2xl font-bold">Images</h1>
       <div className="flex flex-wrap items-center justify-center gap-6">
         {images.map(({ src, alt }) => (
-          <div key={src} className="flex flex-col items-center gap-2">
+          <div key={alt} className="flex flex-col items-center gap-2">
             <Image src={src} alt={alt} width={48} height={48} />
             <span className="text-sm text-gray-600">{alt}</span>
           </div>
