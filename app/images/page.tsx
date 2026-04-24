@@ -10,6 +10,10 @@ const images = [
   { src: facebookImage.src, alt: "Facebook" },
   { src: instagramImage.src, alt: "Instagram" },
   { src: reachNewCustomerImage.src, alt: "Reach new customers" },
+  {
+    src: "https://github.com/user-attachments/assets/537578be-e57e-4cba-9c49-561f80eac305",
+    alt: "Preview",
+  },
 ];
 
 export const metadata = {
