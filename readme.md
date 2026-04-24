@@ -1,5 +1,7 @@
 # Resend with React Email + Next.js + Vercel
 
+![Preview](https://github.com/user-attachments/assets/537578be-e57e-4cba-9c49-561f80eac305)
+
 This example shows how to use Resend with React Email + Next.js + Vercel.
 
 ## Deploy your own
