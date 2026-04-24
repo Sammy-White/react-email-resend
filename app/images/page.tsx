@@ -1,6 +1,7 @@
 import facebookImage from "./assets/facebook.png";
 import instagramImage from "./assets/instagram.png";
 import linkedinImage from "./assets/linkedin.png";
+import previewImage from "./assets/preview.png";
 import reachNewCustomerImage from "./assets/reach-new-customer-image.png";
 import xImage from "./assets/x.png";
 
@@ -10,10 +11,7 @@ const images = [
   { src: facebookImage.src, alt: "Facebook" },
   { src: instagramImage.src, alt: "Instagram" },
   { src: reachNewCustomerImage.src, alt: "Reach new customers" },
-  {
-    src: "https://github.com/user-attachments/assets/537578be-e57e-4cba-9c49-561f80eac305",
-    alt: "Preview",
-  },
+  { src: previewImage.src, alt: "Preview" },
 ];
 
 export const metadata = {
