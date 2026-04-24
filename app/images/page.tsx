@@ -5,6 +5,10 @@ const images = [
   { src: "/linkedin.png", alt: "LinkedIn" },
   { src: "/facebook.png", alt: "Facebook" },
   { src: "/instagram.png", alt: "Instagram" },
+  {
+    src: "https://github.com/user-attachments/assets/ec77163d-06fe-4b3c-94fc-d656ebf7900b",
+    alt: "Social Icon",
+  },
 ];
 
 export const metadata = {
